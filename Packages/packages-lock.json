@@ -1,5 +1,14 @@
 {
   "dependencies": {
+    "com.cognitive3d.c3d-sdk": {
+      "version": "file:com.cognitive3d.c3d-sdk",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.xr.legacyinputhelpers": "2.1.7",
+        "com.unity.xr.management": "4.2.1"
+      }
+    },
     "com.unity.inputsystem": {
       "version": "1.6.3",
       "depth": 0,
@@ -75,6 +84,18 @@
       "dependencies": {
         "com.unity.modules.vr": "1.0.0",
         "com.unity.modules.xr": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.xr.management": {
+      "version": "4.3.3",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.vr": "1.0.0",
+        "com.unity.modules.xr": "1.0.0",
+        "com.unity.modules.subsystems": "1.0.0",
+        "com.unity.xr.legacyinputhelpers": "2.1.7"
       },
       "url": "https://packages.unity.com"
     },
