@@ -17,7 +17,7 @@ MonoBehaviour:
   Dashboard: app.cognitive3d.com
   Viewer: viewer.cognitive3d.com/scene/
   Documentation: docs.cognitive3d.com
-  EditorHasDisplayedPopup: 0
+  EditorHasDisplayedPopup: 1
   GazeType: 0
   ApplicationKey: 
   AttributionKey: 
