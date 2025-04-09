@@ -25,15 +25,15 @@ Hack and Seek is a dynamic and competitive event for high school students across
     1. Verify the project has been added as **HackAndSeek-Starter**, and click on it to open the project
 ## Build Your VR Experience
 
-This project includes a **Starter Scene** (Assets > Scenes > Starter Scene) that you can start with. There is also an **Interactions Demo** scene (Assets > XRI_Examples > XRI_Examples_Main) that demonstrates some of the VR interactions available. You can use the demo scene as a guide for movement, object, and menu interactions that you would like to put into your VR project.
+There is an **Interactions Demo** scene (Assets > XRI_Examples > XRI_Examples_Main) that demonstrates some of the VR interactions available. You can use the demo scene as a guide for movement, object, and menu interactions that you would like to put into your VR project.
 
 ## Workshops
 
 To help you prepare, we recommend attending the online workshops provided by Lethbridge College, Bow Valley College, and NAIT:
 
-* **Exploring 3D Modeling with Blender** (April 5, 2-4pm)
-* **Introduction to Unity** (April 12, 2-4pm)
-* **Building VR Experiences with Unity** (April 19, 2-4pm)
+* **Exploring 3D Modeling with Blender** (April 4, 2-4pm)
+* **Introduction to Unity** (April 11, 2-4pm)
+* **Building VR Experiences with Unity** (April 25, 2-4pm)
 
 These workshops are free for Hack and Seek participants and will be streamed on YouTube Live. Check your e-mail for the links. These workshops will equip you with the skills needed to bring your ideas to life.
 
