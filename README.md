@@ -29,7 +29,7 @@ There is an **Interactions Demo** scene (Assets > XRI_Examples > XRI_Examples_Ma
 
 ## Workshops
 
-To help you prepare, we recommend attending the online workshops provided by Lethbridge College, Bow Valley College, and NAIT:
+To help you prepare, we recommend attending the online workshops provided by Lethbridge Polytechnic, Bow Valley College, and NAIT:
 
 * **Exploring 3D Modeling with Blender** (April 4, 2-4pm)
 * **Introduction to Unity** (April 11, 2-4pm)
