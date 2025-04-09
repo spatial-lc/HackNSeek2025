@@ -1,42 +1,61 @@
-# Hack and Seek Starter Project
+# XR Interaction Toolkit Examples - Version 3.0.7
 
-Welcome to the Hack and Seek: Alberta XR Career Quest Starter Project! This project is designed to give you a head start in the competition, where you'll be using virtual reality (VR) technology to create applications that have real-world benefits.
+## Introduction
 
-## About the Hackathon
+This project provides examples that use Unity's [XR Interaction Toolkit](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@3.0/manual/index.html) (XRI) to demonstrate its functionality with example assets and behaviors.
+The intention of this project is to provide a means for getting started with the features in the XR Interaction Toolkit package.
 
-Hack and Seek is a dynamic and competitive event for high school students across Alberta, taking place from May 2-4, 2025. It's an opportunity to dive into the world of VR, work in teams, and present your innovative ideas to industry experts.
+> Note: If you are looking for the original XRI Examples project, that has been archived into two separate branches [Classic 1.0](https://github.com/Unity-Technologies/XR-Interaction-Toolkit-Examples/tree/1.0/classic) and [Classic 2.2](https://github.com/Unity-Technologies/XR-Interaction-Toolkit-Examples/tree/classic/2.2). Both of these branches still have both the `AR` and `VR` projects available.
 
 ## Getting started
 
-### Prerequisites
+### Requirements
+The current version of the XRI Examples is compatible with the following versions of the Unity Editor:
 
-* Unity 2022.3.8
-* Basic understanding of Unity and C# programming. Don't worry if you're unfamiliar, you can watch the YouTube Live tutorial sessions (check your e-mail for details)
+* 2021.3 and later
 
 ### Downloading the project
 
-1. Download this repository to a workspace on your drive
-    1. Click the **⤓ Code** button on this page and click **Download ZIP** to get a copy of this repository that you can extract
+1. Clone or download this repository to a workspace on your drive
+    1. Click the **⤓ Code** button on this page to get the URL to clone with Git or click **Download ZIP** to get a copy of this repository that you can extract
 1. Open a project in Unity
     1. Download, install, and run [Unity Hub](https://unity3d.com/get-unity/download)
-    1. In the **Installs** tab, select **Locate** or **Add** to find or install Unity 2022.3 LTS or later. (note that the labs will be using 2022.3.8f1)
+    1. In the **Installs** tab, select **Locate** or **Add** to find or install Unity 2021.3 LTS or later. Include the **Windows Build Support (IL2CPP)** module if building for PC, and the **Android Build Support** if building for Android (for example, Meta Quest).
     1. In the **Projects** tab, click **Add**
     1. Browse to folder where you downloaded a copy of this repository and click **Select Folder**
-    1. Verify the project has been added as **HackNSeek2025**, and click on it to open the project
-## Build Your VR Experience
+    1. Verify the project has been added as **XR-Interaction-Toolkit-Examples**, and click on it to open the project
 
-This project includes a **Starter Scene** (Assets > Scenes > Starter Scene) that you can start with. There is also an **Interactions Demo** scene (Assets > Scenes > Interactions Demo) that demonstrates some of the VR interactions available. You can use the demo scene as a guide for movement, object, and menu interactions that you would like to put into your VR project.
+## General setup
 
-## Workshops
+The main example scene is located at `Assets/XRI_Examples/Scenes/XRI_Examples_Main`. This example scene is laid out as a ring with different stations along it. The first examples you will encounter are the simplest use-cases of XRI features. Behind each example is a doorway leading to advanced uses of each feature.
 
-To help you prepare, we recommend attending the online workshops provided by Lethbridge College, Bow Valley College, and NAIT:
+Use the simple examples when you need objects you can copy-and-paste, while leveraging the advanced examples when needing to achieve complex outcomes.
 
-* **Exploring 3D Modeling with Blender** (April 4, 2-4pm)
-* **Introduction to Unity** (April 11, 2-4pm)
-* **Building VR Experiences with Unity** (April 25, 2-4pm)
+The **XR Origin** is located within the **Complete Set Up** prefab. This prefab contains everything needed for a fully functional user interaction with XRI. This includes the components needed for general input, interaction, and UI interaction.
 
-These workshops are free for Hack and Seek participants and will be streamed on YouTube Live. Check your e-mail for the links. These workshops will equip you with the skills needed to bring your ideas to life.
+Scripts, assets, and prefabs related to each feature or use case are located in the associated folder in `Assets/XRI_Examples`.
 
-## Have Fun!
-Remember, the goal of Hack and Seek is not just to win but to learn, explore, and have fun with technology. We can't wait to see what you create!
+The following stations are available in the XRI Examples:
 
+* [Station 1: Locomotion Setup](Documentation/LocomotionSetup.md) - Overview of the built-in locomotion options and how to configure them.
+* [Station 2: Grab Interactables](Documentation/GrabInteractables.md) - Basic object manipulation.
+* [Station 3: Activate Interactables](Documentation/ActivateInteractables.md) - Manipulation of objects that can be triggered by the user.
+* [Station 4: Socket Interactors](Documentation/SocketInteractors.md) - Manipulation of objects that can snap to specific positions.
+* [Station 5: Gaze Interaction](Documentation/Gaze.md) - Leverage the eye-tracked or head-based gaze interactor to add assistive interaction.
+* [Station 6: Focus Interaction](Documentation/Focus.md) - Interaction with focused objects.
+* [Station 7: 2D UI](Documentation/UI-2D.md) - Creation and interaction with [world space](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/UICanvas.html#world-space) 2D UI.
+* [Station 8: 3D UI](Documentation/UI-3D.md) - Creation and interaction with 3D constrained controls.
+* [Station 9: Physics Interactables](Documentation/PhysicsInteractables.md) - Best practices for combining physics and XR input.
+* [Station 10: Climb Interactables](Documentation/ClimbInteractables.md) - Interaction with objects that allow for climbing.
+
+For a list of new features and deprecations, see [XRI Examples Changelog](CHANGELOG.md).
+
+For an overview of how the [Input System](https://docs.unity3d.com/Manual/com.unity.inputsystem.html) is used in this example, see [Input](Documentation/Input.md).
+
+## Sharing feedback
+
+The [XR Interaction Toolkit and Input forum](https://forum.unity.com/forums/xr-interaction-toolkit-and-input.519/) is the best place to open discussions and ask questions. Please use the [public roadmap](https://portal.productboard.com/brs5gbymuktquzeomnargn2u) to submit feature requests. If you encounter a bug, please use the Unity Bug Reporter in the Unity Editor, accessible via **Help &gt; Report a Bug**. Include “XR Interaction Toolkit” in the title to help our team triage things appropriately!
+
+## Contributions and pull requests
+
+We are not accepting pull requests at this time.
