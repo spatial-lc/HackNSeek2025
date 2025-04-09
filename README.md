@@ -4,7 +4,7 @@ Welcome to the Hack and Seek: Alberta XR Career Quest Starter Project! This proj
 
 ## About the Hackathon
 
-Hack and Seek is a dynamic and competitive event for high school students across Alberta, taking place from May 3-5, 2024. It's an opportunity to dive into the world of VR, work in teams, and present your innovative ideas to industry experts.
+Hack and Seek is a dynamic and competitive event for high school students across Alberta, taking place from May 2-4, 2025. It's an opportunity to dive into the world of VR, work in teams, and present your innovative ideas to industry experts.
 
 ## Getting started
 
