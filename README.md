@@ -15,14 +15,16 @@ Hack and Seek is a dynamic and competitive event for high school students across
 
 ### Downloading the project
 
-1. Download this repository to a workspace on your drive
+1. Download this repository ZIP file to a workspace on your drive
     1. Click the **⤓ Code** button on this page and click **Download ZIP** to get a copy of this repository that you can extract
 1. Open a project in Unity
     1. Download, install, and run [Unity Hub](https://unity3d.com/get-unity/download)
-    1. In the **Installs** tab, select **Locate** or **Add** to find or install Unity 2020.3 LTS or later. (the labs are using 2022.3.8f1)
-    1. In the **Projects** tab, click **Add**
-    1. Browse to folder where you downloaded a copy of this repository and click **Select Folder**
-    1. Verify the project has been added as **HackAndSeek-Starter**, and click on it to open the project
+    2. In the **Projects** tab, click **Add > Add Project From Disk**
+    3. Browse to folder where you unzipped a copy of this repository and click **Select Folder**
+    4. If you do not have Unity Editor 2022.3.8f1 installed, Hub will warn you and give you the option to install the compatible Editor. Be sure to include the Android options
+    5. To manually install the Editor >> Go to the **Installs** tab, select **Add** to install Unity 2020.3.8f1 from the Archive option. Be sure to include the Android options  
+    6. Verify the project has been added as **HackAndSeek_2025**, and click on it to open the project
+
 ## Build Your VR Experience
 
 There is an **Interactions Demo** scene (Assets > XRI_Examples > XRI_Examples_Main) that demonstrates some of the VR interactions available. You can use the demo scene as a guide for movement, object, and menu interactions that you would like to put into your VR project.
